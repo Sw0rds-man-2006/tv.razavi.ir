@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <script src="../js/main.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- header -->
+
+      <header class="header">
+        <img src="../ax/logo-scroll.png" alt="" />
+
+        <div class="nav-link">
+          <span class="fas fa-house-user"> </span>
+          <p>خانه</p>
+
+          <span class="fas fa-music"> </span>
+          <p>نماهنگ</p>
+
+          <span class="fas fa-podcast"> </span>
+          <p>پادکست</p>
+
+          <span class="fas fa-user-group"> </span>
+          <p>بخش تعاملی</p>
+
+          <span class="fas fa-comment-dots"> </span>
+          <p>دلنوشته</p>
+
+          <span class="fas fa-envelope"> </span>
+          <p>ارتباط با ما</p>
+        </div>
+
+        <!-- search and sign in -->
+
+        <div style="display: flex">
+          <input
+            id="search-bar"
+            type="text"
+            class="search-bar"
+            placeholder="جستجو کنید"
+          />
+          <span class="search-span">
+            <span class="fa fa-search"></span>
+          </span>
+          <select name="زبان" id="">
+            <option value="fa">فارسی</option>
+            <option value="ar">عربی</option>
+          </select>
+          <div class="login-div">
+            <span class="fa fa-user"></span>
+            ورود / ثبت نام
+          </div>
+        </div>
+      </header>
+
+      <!-- main -->
+
+      <div class="main">
+        <span class="halo"></span>
+
+        <!-- div pakhsh zende -->
+
+        <div class="pakhsh-zende">
+          <div class="pakhsh-zende-fehrest">
+            <div>
+              <div class="content1" id="content1">
+                <div
+                  style="
+                    margin-right: 25px;
+                    display: flex;
+                    justify-content: space-between;
+                    width: 90%;
+                  "
+                >
+                  <p class="margin">کندانتور پخش</p>
+                  <div style="display: flex">
+                    <span
+                      class="fa fa-arrow-right margin"
+                      style="font-size: 10px; margin-top: 20px"
+                    ></span>
+                    <p
+                      id="tarikh"
+                      style="
+                        color: aquamarine;
+                        margin-left: 25px;
+                        margin-right: 25px;
+                      "
+                      class="margin"
+                    >
+                      ی جای کار میلنگه
+                    </p>
+                    <span
+                      class="fa fa-arrow-left margin"
+                      style="font-size: 10px; margin-top: 20px"
+                    ></span>
+                  </div>
+                </div>
+                <div class="scroll-bar">
+                  <button>سخنرانی شماره یک</button>
+                  <button>سخنرانی شماره دو</button>
+                  <button>سخنرانی شماره سه</button>
+                  <button>سخنرانی شماره چهار</button>
+                  <button>سخنرانی شماره پنج</button>
+                  <button>سخنرانی شماره شش</button>
+                  <button>سخنرانی شماره هفت</button>
+                  <button>سخنرانی شماره هشت</button>
+                  <button>سخنرانی شماره نه</button>
+                  <button>سخنرانی شماره ده</button>
+                </div>
+              </div>
+
+              <div class="content2" id="content2">
+                <img src="../ax/haram.jfif" class="ax1" alt="" />
+                <pre>برنامه های حرم مطهر رضوی </pre>
+                <span class="fa fa-arrow-left" style="color: aquamarine"></span>
+                <img src="../ax/haram.jfif" class="ax2" alt="" />
+              </div>
+
+              <div class="content3" id="content3">
+                <img src="../ax/karbala.jfif" class="ax1" alt="" />
+                <pre>زیارت مجازی </pre>
+                <span class="fa fa-arrow-left" style="color: aquamarine"></span>
+                <img src="../ax/karbala.jfif" class="ax2" alt="" />
+              </div>
+
+              <div class="content4" id="content4">
+                <img src="../ax/haram2.jpg" class="ax1" alt="" />
+                <pre>بخش خبری آستان قدس </pre>
+                <span class="fa fa-arrow-left" style="color: aquamarine"></span>
+                <img src="../ax/haram2.jpg" class="ax2" alt="" />
+              </div>
+            </div>
+
+            <!-- hidden content -->
+
+            <div class="content5" id="content5">
+              <div class="con5">
+                <span
+                  id="content5-back"
+                  class="fa fa-arrow-right margin"
+                  style="
+                    cursor: pointer;
+                    color: aquamarine;
+                    position: absolute;
+                    right: 10%;
+                  "
+                ></span>
+                <h5>زیارت مجازی</h5>
+              </div>
+              <div class="sahn-ha">
+                <div>صحن گوهر شاد</div>
+                <div>صحن انقلاب</div>
+                <div>روضه منوره</div>
+                <div>صحن آزادی</div>
+              </div>
+            </div>
+
+            <div class="content6" id="content6">
+              <div class="con6">
+                <span
+                  id="content6-back"
+                  class="fa fa-arrow-right margin"
+                  style="
+                    cursor: pointer;
+                    color: aquamarine;
+                    position: absolute;
+                    right: 10%;
+                  "
+                ></span>
+                <h5>بخش خبری آستان قدس رضوی</h5>
+              </div>
+            </div>
+          </div>
+
+          <!-- ax pakhsh-zende -->
+
+          <div class="pakhsh-zende-ax-div">
+            <img
+              class="pakhsh-zende-ax"
+              src="../ax/Screenshot 2024-10-01 142531.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="namahang">
+        <div class="namahang-nav">
+          <div class="namahang-nav-left">
+            <span
+              class="fa fa-arrow-circle-left margin"
+              style="color: whitesmoke"
+            ></span
+            >مشاهده آرشیو
+          </div>
+          <div class="namahang-nav-right">
+            <p class="margin">نماهنگ</p>
+            <span class="fa fa-music margin" style="margin-right: 15px"></span>
+            <div></div>
+          </div>
+        </div>
+
+        <div class="namahang-content">
+          <div class="namahang-content-items">
+            <img src="../ax/haram.jfif" alt="" />
+            <div class="namahang-content-items-name">اسم نماهنگ</div>
+            <div class="namahang-content-items-detailes">
+              <p>تعداد نمایش</p>
+              <p>زمان ویدیو</p>
+            </div>
+          </div>
+          <div class="namahang-content-items">
+            <img src="../ax/haram.jfif" alt="" />
+            <div class="namahang-content-items-name">اسم نماهنگ</div>
+            <div class="namahang-content-items-detailes">
+              <p>تعداد نمایش</p>
+              <p>زمان ویدیو</p>
+            </div>
+          </div>
+          <div class="namahang-content-items">
+            <img src="../ax/haram.jfif" alt="" />
+            <div class="namahang-content-items-name">اسم نماهنگ</div>
+            <div class="namahang-content-items-detailes">
+              <p>تعداد نمایش</p>
+              <p>زمان ویدیو</p>
+            </div>
+          </div>
+          <div class="namahang-content-items">
+            <img src="../ax/haram.jfif" alt="" />
+            <div class="namahang-content-items-name">اسم نماهنگ</div>
+            <div class="namahang-content-items-detailes">
+              <p>تعداد نمایش</p>
+              <p>زمان ویدیو</p>
+            </div>
+          </div>
+          <div class="namahang-content-items">
+            <img src="../ax/haram.jfif" alt="" />
+            <div class="namahang-content-items-name">اسم نماهنگ</div>
+            <div class="namahang-content-items-detailes">
+              <p>تعداد نمایش</p>
+              <p>زمان ویدیو</p>
+            </div>
+          </div>
+          <div class="namahang-content-items">
+            <img src="../ax/haram.jfif" alt="" />
+            <div class="namahang-content-items-name">اسم نماهنگ</div>
+            <div class="namahang-content-items-detailes">
+              <p>تعداد نمایش</p>
+              <p>زمان ویدیو</p>
+            </div>
+          </div>
+          <div class="namahang-content-items">
+            <img src="../ax/haram.jfif" alt="" />
+            <div class="namahang-content-items-name">اسم نماهنگ</div>
+            <div class="namahang-content-items-detailes">
+              <p>تعداد نمایش</p>
+              <p>زمان ویدیو</p>
+            </div>
+          </div>
+          <div class="namahang-content-items">
+            <img src="../ax/haram.jfif" alt="" />
+            <div class="namahang-content-items-name">اسم نماهنگ</div>
+            <div class="namahang-content-items-detailes">
+              <p>تعداد نمایش</p>
+              <p>زمان ویدیو</p>
+            </div>
+          </div>
+          <div class="namahang-content-items">
+            <img src="../ax/haram.jfif" alt="" />
+            <div class="namahang-content-items-name">اسم نماهنگ</div>
+            <div class="namahang-content-items-detailes">
+              <p>تعداد نمایش</p>
+              <p>زمان ویدیو</p>
+            </div>
+          </div>
+          <div class="namahang-content-items">
+            <img src="../ax/haram.jfif" alt="" />
+            <div class="namahang-content-items-name">اسم نماهنگ</div>
+            <div class="namahang-content-items-detailes">
+              <p>تعداد نمایش</p>
+              <p>زمان ویدیو</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="namahang">
+        <div class="namahang-nav">
+          <div class="namahang-nav-left">
+            <span
+              class="fa fa-arrow-circle-left margin"
+              style="color: whitesmoke"
+            ></span
+            >مشاهده آرشیو
+          </div>
+          <div class="namahang-nav-right">
+            <p class="margin">پادکست</p>
+            <span
+              class="fa fa-podcast margin"
+              style="margin-right: 15px"
+            ></span>
+            <div style="background-color: rgb(255, 68, 68)"></div>
+          </div>
+        </div>
+
+        <div class="namahang-content">
+          <div class="namahang-content-items">
+            <img src="../ax/haram.jfif" alt="" />
+            <div class="namahang-content-items-name">اسم نماهنگ</div>
+            <div class="namahang-content-items-detailes">
+              <p>تعداد نمایش</p>
+              <p>زمان ویدیو</p>
+            </div>
+          </div>
+          <div class="namahang-content-items">
+            <img src="../ax/haram.jfif" alt="" />
+            <div class="namahang-content-items-name">اسم نماهنگ</div>
+            <div class="namahang-content-items-detailes">
+              <p>تعداد نمایش</p>
+              <p>زمان ویدیو</p>
+            </div>
+          </div>
+          <div class="namahang-content-items">
+            <img src="../ax/haram.jfif" alt="" />
+            <div class="namahang-content-items-name">اسم نماهنگ</div>
+            <div class="namahang-content-items-detailes">
+              <p>تعداد نمایش</p>
+              <p>زمان ویدیو</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="namahang">
+        <div class="namahang-nav">
+          <div class="namahang-nav-left">
+            <span
+              class="fa fa-arrow-circle-left margin"
+              style="color: whitesmoke"
+            ></span
+            >مشاهده آرشیو
+          </div>
+          <div class="namahang-nav-right">
+            <p class="margin">بخش تعاملی</p>
+            <span
+              class="fa fa-user-group margin"
+              style="margin-right: 15px"
+            ></span>
+            <div style="background-color: rgb(13, 255, 13)"></div>
+          </div>
+        </div>
+
+        <div class="namahang-content">
+          <div class="namahang-content-items">
+            <img src="../ax/haram.jfif" alt="" />
+            <div class="namahang-content-items-name">اسم نماهنگ</div>
+            <div class="namahang-content-items-detailes">
+              <p>تعداد نمایش</p>
+              <p>زمان ویدیو</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slider-opinions">
+        <div class="slider-opinions-title">
+          <span class="fa fa-comment-dots" style="margin-top: 15px"></span>
+          <p style="margin: 10px">دلنوشته</p>
+        </div>
+        <div class="slider">
+          <div class="slides">
+            <div class="slide">
+              <span class="fa fa-user"></span>
+              <p>
+                div 1 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Veritatis nobis consectetur eum dolores tempore et ex ducimus
+                libero earum illum?
+              </p>
+            </div>
+            <div class="slide">
+              <span class="fa fa-user"></span>
+              <p>
+                div 2 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Veritatis nobis consectetur eum dolores tempore et ex ducimus
+                libero earum illum?
+              </p>
+            </div>
+            <div class="slide">
+              <span class="fa fa-user"></span>
+              <p>
+                div 3 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Veritatis nobis consectetur eum dolores tempore et ex ducimus
+                libero earum illum?
+              </p>
+            </div>
+            <div class="slide">
+              <span class="fa fa-user"></span>
+              <p>
+                div 4 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Veritatis nobis consectetur eum dolores tempore et ex ducimus
+                libero earum illum?
+              </p>
+            </div>
+            <div class="slide">
+              <span class="fa fa-user"></span>
+              <p>
+                div 5 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Veritatis nobis consectetur eum dolores tempore et ex ducimus
+                libero earum illum?
+              </p>
+            </div>
+            <div class="slide">
+              <span class="fa fa-user"></span>
+              <p>
+                div 6 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Veritatis nobis consectetur eum dolores tempore et ex ducimus
+                libero earum illum?
+              </p>
+            </div>
+            <div class="slide">
+              <span class="fa fa-user"></span>
+              <p>
+                div 7 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Veritatis nobis consectetur eum dolores tempore et ex ducimus
+                libero earum illum?
+              </p>
+            </div>
+          </div>
+          <div class="slider-button">
+            <div class="fa fa-arrow-circle-left" id="index1"></div>
+            <div class="fa fa-arrow-circle-right" id="index2"></div>
+          </div>
+          <img src="../ax/tv.png" class="tv-png" alt="" />
+        </div>
+
+        <div class="opinions">
+          <div>
+            <textarea
+              name=""
+              placeholder="نام و نام خانوادگی"
+              class="t-area-name"
+              id=""
+            ></textarea>
+            <textarea
+              name=""
+              placeholder="شماره موبایل"
+              id=""
+              class="t-area-number"
+            ></textarea>
+          </div>
+          <textarea
+            name=""
+            placeholder="دلنوشته..."
+            class="t-area"
+            id=""
+          ></textarea>
+        </div>
+      </div>
+      <span class="halo2"></span>
+
+      <!-- footer -->
+
+      <div>
+        <footer class="footer">
+          <p>تمامی حقوق این وبسایت متعلق به خودمه</p>
+
+          <p>مکان قرار گیری لوگو ها</p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script></script>
